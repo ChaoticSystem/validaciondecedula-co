@@ -15,7 +15,7 @@ curl_setopt_array($curl, array(
   CURLOPT_CUSTOMREQUEST => 'POST',
   CURLOPT_POSTFIELDS => 'documentType=CC&documentNumber=18261709',
   CURLOPT_HTTPHEADER => array(
-    'Authorization: q6y3fbrgqirzumf9o9w8vfbibmg8z5de',
+    'Authorization: <API CODE>',// 'Authorization: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  ',
     'Content-Type: application/x-www-form-urlencoded'
   ),
 ));
